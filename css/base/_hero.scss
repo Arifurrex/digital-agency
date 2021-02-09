@@ -1,0 +1,25 @@
+/* hero start from here  */
+.background {
+  background-image: url(/image/pro2.png);
+  background-color: rgb(131, 120, 120);
+  color: #fff;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero {
+  padding: 5em 0;
+  position: relative;
+}
+.hero__left-side {
+  width: 50%;
+  max-width: 500px;
+}
+.hero__header {
+  margin-bottom: 1em;
+}
+
+/* hero end here  */

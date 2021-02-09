@@ -1,0 +1,10 @@
+/* lets talk start here  */
+.icon--modifier {
+  border: 1px solid var(--clr-red);
+  border-radius: 100%;
+  font-size: 1rem;
+  padding: 1em;
+  margin-left: 1em;
+}
+
+/* lets talk end here  */

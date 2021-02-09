@@ -1,0 +1,21 @@
+.subtitle {
+  color: var(--clr-red);
+  margin-top: 0;
+}
+
+.card {
+  padding: 2em;
+  background: var(--clr-darken);
+}
+.image {
+  height: 400px;
+  width: 100%;
+}
+.title::before {
+  //for title lilne
+  content: '';
+  position: absolute;
+  width: 2em;
+  height: 1px;
+  background-color: var(--clr-red);
+}

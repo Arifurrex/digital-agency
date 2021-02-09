@@ -1,0 +1,16 @@
+.latestnews {
+  .title {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 1em;
+      height: 1px;
+      background-color: var(--clr-red);
+    }
+  }
+  .latestnews__title {
+    text-align: center;
+    margin-bottom: 3em;
+  }
+}

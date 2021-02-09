@@ -1,0 +1,39 @@
+/* card start from here  */
+.cards__position {
+  position: absolute;
+  top: 450px;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cards {
+  .card {
+    padding: 2em;
+    background: var(--clr-darken);
+  }
+  .card--modifier {
+    background-color: var(--clr-red);
+  }
+  .card__three {
+    position: relative;
+  }
+  .card--after::after {
+    content: '';
+    position: absolute;
+    top: 90%;
+    bottom: -10px;
+    left: 0;
+    right: -10px;
+    background-color: var(--clr-red);
+    z-index: -2;
+  }
+  .fas {
+    margin-bottom: 2em;
+    color: var(--clr-red);
+  }
+  .fas--modifier {
+    color: var(--clr-light);
+  }
+}
+
+/* card end here  */

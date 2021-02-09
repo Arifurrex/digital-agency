@@ -1,0 +1,95 @@
+/* general style */
+body {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+:focus {
+  outline: 3px solid var(--clr-red);
+  outline-offset: 3px;
+}
+/* button  */
+.btn {
+  display: inline-block;
+  padding: 0.5em 2.2em;
+  background: var(--clr-red);
+  color: var(--clr-light);
+  text-transform: uppercase;
+  word-spacing: 0.35em;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  translate: transform 200ms ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+/* typhography */
+h1,
+h2,
+h3 {
+  line-height: 1;
+  margin: 0;
+}
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+
+/* ======================================= */
+.cards,
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1em;
+}
+.container {
+  width: 80%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-wrap {
+  /* //when u will use flex-wrap use flex-grow:1 and width: ; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+section {
+  padding: 5em 0;
+}
+.border {
+  border: 5px solid orangered;
+}
+// =======================

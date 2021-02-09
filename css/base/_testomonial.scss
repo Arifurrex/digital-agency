@@ -1,0 +1,23 @@
+/* testomonial section start from here   */
+.testomonial__left-side {
+  width: 45%;
+  position: relative;
+}
+.testomonial__right-side {
+  width: 50%;
+}
+.testomonial--image {
+  height: 600px;
+  width: 100%;
+}
+.testomonial__left-side::after {
+  content: '';
+  position: absolute;
+  top: 90%;
+  bottom: -10px;
+  left: 80%;
+  right: -10px;
+  background-color: var(--clr-red);
+  z-index: -2;
+}
+/* testomonial section end from here   */
